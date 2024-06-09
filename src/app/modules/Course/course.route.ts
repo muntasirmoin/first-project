@@ -29,7 +29,7 @@ router.patch(
   validateRequest(CourseValidations.updateCourseValidationSchema),
   CourseControllers.updateCourse,
 )
-
+// module17
 router.delete('/:id', auth('admin'), CourseControllers.deleteCourse)
 
 router.put(
